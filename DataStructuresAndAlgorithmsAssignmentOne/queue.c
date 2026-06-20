@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-struct node* head;
-struct node* tail;
+
 
 void initQueue() {
+    struct node* head;
+    struct node* tail;
     head = tail = NULL;
 }
 
