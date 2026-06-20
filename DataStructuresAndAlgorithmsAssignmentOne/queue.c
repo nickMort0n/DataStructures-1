@@ -8,3 +8,7 @@ void initQueue() {
     head = tail = NULL;
 }
 
+int isEmpty(struct queue* head) {
+    return (head == NULL);//when head is NULL the list is empty
+}
+
