@@ -16,3 +16,8 @@ void addToTail(struct node* tail, struct node* newTail) {
     tail->next = newTail;
     tail = newTail;
 }
+
+void removeFromHead(struct node* head) {
+    head->next = head;
+    free(head);
+}
