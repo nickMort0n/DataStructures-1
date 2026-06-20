@@ -13,4 +13,9 @@ struct node {
 	struct node* next;
 };
 
+void initQueue();
+int isEmpty(struct node*);
+void addToTail(struct node*, struct node*);
+void removeFromHead(struct node*);
+
 #endif
