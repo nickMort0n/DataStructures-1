@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="DataStructuresAndAlgorithmsAssignmentOne/DataStructuresAndAlgorithmsAssignmentOne.vcxproj" />
+  <Project Path="DataStructuresAndAlgorithmsAssignmentOne/DataStructuresAndAlgorithmsAssignmentOne.vcxproj" Id="fe179df8-7090-46d0-a9fd-3a7cb2166a16" />
 </Solution>
