@@ -8,7 +8,11 @@ void initQueue() {
     head = tail = NULL;
 }
 
-int isEmpty(struct queue* head) {
+int isEmpty(struct node* head) {
     return (head == NULL);//when head is NULL the list is empty
 }
 
+void addToTail(struct node* tail, struct node* newTail) {
+    tail->next = newTail;
+    tail = newTail;
+}

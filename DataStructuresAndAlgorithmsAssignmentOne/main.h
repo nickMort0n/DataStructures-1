@@ -8,7 +8,7 @@ struct user {
 	char* faction;
 };
 
-struct queue {
+struct node {
 	struct user user;
 	struct node* next;
 };
